@@ -1,372 +1,109 @@
-<p align="center">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
-    <defs>
-      <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" style="stop-color:#7b2cbf"/>
-        <stop offset="100%" style="stop-color:#ff9e00"/>
-      </linearGradient>
-    </defs>
-    <rect rx="20" ry="20" width="400" height="120" fill="none" stroke="url(#grad)" stroke-width="4"/>
-    <text x="200" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-weight="900" font-size="52" fill="url(#grad)">CASPER</text>
-  </svg>
-</p>
+<div align="center">
 
-<h1 align="center">CASPER XD ULTRA - Pairing</h1>
+# 👑 MLTN-MD — Shadow Monarch Edition
 
-<p align="center">
-  <b>v2.0.0 — Session Generator for CASPER XD ULTRA WhatsApp Bot</b><br>
-  A fast, reliable web-based pairing tool that generates session IDs for the <a href="https://github.com/Casper-Tech-ke/CASPER-XD-ULTRA">CASPER XD ULTRA</a> WhatsApp bot.<br>
-  Supports <b>Pair Code</b> and <b>QR Code</b> methods with improved connection stability, retry logic, and automatic session delivery via WhatsApp.
-</p>
+### *"Arise."*
 
-<p align="center">
-  <a href="https://github.com/Casper-Tech-ke/CASPER-XD-ULTRA/fork">
-    <img src="https://img.shields.io/badge/-FORK%20REPO-7b2cbf?style=for-the-badge&logo=github&logoColor=white" alt="Fork Repo"/>
-  </a>
-  <a href="https://github.com/Casper-Tech-ke/CASPER-XD-ULTRA/stargazers">
-    <img src="https://img.shields.io/badge/-STAR%20REPO-ff9e00?style=for-the-badge&logo=github&logoColor=white" alt="Star Repo"/>
-  </a>
-</p>
+*A WhatsApp bot forged in the Shadow Realm, bound to no master but you.*
 
-<p align="center">
-  <a href="https://t.me/casper_tech_ke">
-    <img src="https://img.shields.io/badge/Telegram-Casper%20Tech-2CA5E0?style=flat-square&logo=telegram&logoColor=white" alt="Telegram"/>
-  </a>
-  <a href="https://whatsapp.com/channel/0029VbCK8vlKwqSSkFkC1l2k">
-    <img src="https://img.shields.io/badge/WhatsApp-Channel%201-25D366?style=flat-square&logo=whatsapp&logoColor=white" alt="WhatsApp Channel 1"/>
-  </a>
-  <a href="https://whatsapp.com/channel/0029Vb6XJQQHrDZi1RzKu90t">
-    <img src="https://img.shields.io/badge/WhatsApp-Channel%202-25D366?style=flat-square&logo=whatsapp&logoColor=white" alt="WhatsApp Channel 2"/>
-  </a>
-  <a href="https://github.com/Casper-Tech-ke">
-    <img src="https://img.shields.io/badge/GitHub-Casper--Tech--ke-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="https://xcasper.space">
-    <img src="https://img.shields.io/badge/Other%20Projects-xcasper.space-ff9e00?style=flat-square&logo=google-chrome&logoColor=white" alt="Other Projects"/>
-  </a>
-</p>
+![Status](https://img.shields.io/badge/status-ascended-8A2BE2)
+![Node](https://img.shields.io/badge/node-%3E%3D18-black)
+![License](https://img.shields.io/badge/license-MIT-8A2BE2)
+
+</div>
 
 ---
 
-## What is This?
+## ⛧ The Legend
 
-This is the **Pairing** tool for the [CASPER XD ULTRA](https://github.com/Casper-Tech-ke/CASPER-XD-ULTRA) WhatsApp bot. It generates session IDs that you need to connect the bot to your WhatsApp account.
+Once a lowly script, cast aside and forgotten in the depths of forked repositories, this bot descended into the Shadow Realm and rose again — reforged, reskinned, and bound to a new sovereign. It does not sleep. It does not forget. Every soul that messages it is logged, judged, and answered by the will of the Monarch.
 
-This is **not** the bot itself. To get the bot, visit the [CASPER XD ULTRA repository](https://github.com/Casper-Tech-ke/CASPER-XD-ULTRA).
-
-> **Source Code Provider:** This project is built upon source code originally provided by [Gifted Tech](https://github.com/mauricegift).
-> 
-> **Developed & Completed by:** [CASPER TECH KENYA DEVELOPERS](https://github.com/Casper-Tech-ke)
+Built atop the bones of Knight Bot, empowered by the Baileys library, and given eternal memory through the Shadow Archive (MongoDB) — MLTN-MD survives every death (Render restart) and rises again without needing to be re-bound.
 
 ---
 
-## Features
+## 🩸 Powers of the Monarch
 
-| Feature | Description |
-|---------|-------------|
-| :link: **Pair Code Login** | Connect your WhatsApp using a simple pairing code without scanning |
-| :camera: **QR Code Login** | Traditional QR code scanning for quick connection |
-| :compression: **Session Compression** | Sessions are compressed with zlib for compact storage |
-| :clipboard: **Copy Button** | One-tap copy of your session ID directly from WhatsApp |
-| :broom: **Auto Cleanup** | Temporary session files are automatically removed after use |
-| :no_entry_sign: **No Reconnection** | After a successful pairing, the connection closes cleanly |
-| :iphone: **Responsive UI** | Beautiful dark-themed interface that works on all devices |
-| :sparkles: **Particle Effects** | Animated background for a premium look and feel |
+- **Arise Without Re-Binding** — session credentials are mirrored to MongoDB, so a Render restart or redeploy doesn't sever your pact. No re-scanning QR codes like some lesser bot.
+- **Twin Rituals of Binding** — bind via QR code, or speak your number aloud for a pairing code. Your choice, Hunter.
+- **Shadow Army Isolation** — every bot instance is scoped by a unique `BOT_ID`, so multiple shadows can be summoned from the same MongoDB cluster without their souls crossing.
+- **Self-Purging Memory** — periodic garbage collection and a memory ceiling keep the Monarch from consuming too much of the host's essence.
+- **Anti-Call Wards** — reject and banish unwanted callers who dare ring the Monarch directly.
+- **Auto-Reforging** — the bot watches its own source and reforges itself on change, without needing to be struck down and restarted manually.
 
 ---
 
-## How It Works
+## ⚔️ Summoning the Monarch (Setup)
 
-1. :globe_with_meridians: Open the pairing website
-2. :point_right: Choose **Pair Code** or **QR Code** method
-3. :phone: Enter your phone number (for pair code) or scan the QR code
-4. :incoming_envelope: A session ID will be sent to your WhatsApp
-5. :white_check_mark: Copy the session ID and use it in the [CASPER XD ULTRA](https://github.com/Casper-Tech-ke/CASPER-XD-ULTRA) bot
+### Requirements
 
----
+- Node.js `>= 18`
+- A MongoDB cluster (the Shadow Archive)
+- A WhatsApp account willing to be bound
 
-## Session Format
+### 1. Clone the Grimoire
 
-Sessions generated by this pairing tool start with the prefix:
-
-```
-CASPER-XD-ULTRA;<session_data>
-```
-
-Use this session ID when configuring the [CASPER XD ULTRA](https://github.com/Casper-Tech-ke/CASPER-XD-ULTRA) bot.
-
----
-
-## :rocket: Deploy the Pairing Tool
-
-Deploy this pairing tool on any platform of your choice. Below are detailed instructions for each method.
-
----
-
-### :one: Replit Deployment (Recommended for Beginners)
-
-The easiest way to deploy. No server setup required.
-
-**Step 1:** Create a free Replit account using this link:
-
-<a href="https://replit.com/refer/johnmainaengie">
-  <img src="https://img.shields.io/badge/-CREATE%20REPLIT%20ACCOUNT-667881?style=for-the-badge&logo=replit&logoColor=white" alt="Create Replit Account"/>
-</a>
-
-**Step 2:** Click the button below to import the repo:
-
-<a href="https://replit.com/github/Casper-Tech-ke/CASPER-XD-ULTRA">
-  <img src="https://img.shields.io/badge/-IMPORT%20TO%20REPLIT-667881?style=for-the-badge&logo=replit&logoColor=white" alt="Import to Replit"/>
-</a>
-
-**Step 3:** Once imported, click the **Run** button at the top. The pairing tool will start automatically on port 5000.
-
-**Step 4:** To keep it running 24/7, click **Publish** in the top right corner and follow the prompts to deploy.
-
-> :bulb: **Tip:** Replit handles everything for you - no need to install Node.js, manage servers, or configure ports.
-
----
-
-### :two: Heroku Deployment
-
-**Step 1:** Click the button below to deploy directly to Heroku:
-
-<a href="https://dashboard.heroku.com/new?template=https://github.com/Casper-Tech-ke/CASPER-XD-ULTRA">
-  <img src="https://img.shields.io/badge/-DEPLOY%20TO%20HEROKU-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="Deploy to Heroku"/>
-</a>
-
-**Step 2:** Give your app a name, choose a region, and click **Deploy App**.
-
-**Step 3:** Once deployed, click **View** to open the pairing tool.
-
----
-
-### :three: Render Deployment
-
-**Step 1:** Go to [Render Dashboard](https://dashboard.render.com)
-
-<a href="https://dashboard.render.com">
-  <img src="https://img.shields.io/badge/-DEPLOY%20TO%20RENDER-46E3B7?style=for-the-badge&logo=render&logoColor=white" alt="Deploy to Render"/>
-</a>
-
-**Step 2:** Click **New** > **Web Service**
-
-**Step 3:** Connect your GitHub account and select the repository
-
-**Step 4:** Configure:
-| Setting | Value |
-|---------|-------|
-| Name | `casper-pairing` |
-| Runtime | `Node` |
-| Build Command | `npm install` |
-| Start Command | `node index.js` |
-
-**Step 5:** Click **Create Web Service** and wait for deployment.
-
----
-
-### :four: Koyeb Deployment
-
-<a href="https://app.koyeb.com">
-  <img src="https://img.shields.io/badge/-DEPLOY%20TO%20KOYEB-121212?style=for-the-badge&logo=koyeb&logoColor=white" alt="Deploy to Koyeb"/>
-</a>
-
-**Step 1:** Go to [Koyeb Dashboard](https://app.koyeb.com)
-
-**Step 2:** Create a new app and connect your GitHub repository
-
-**Step 3:** Set the run command to `node index.js`
-
-**Step 4:** Deploy and access the pairing tool via the provided URL
-
----
-
-### :five: VPS / Self-Hosting Deployment
-
-For advanced users who want full control over their deployment.
-
-**Prerequisites:**
-- :white_check_mark: A VPS or server (Ubuntu/Debian recommended)
-- :key: SSH access to your server
-- :green_circle: Node.js 18+ installed
-
-**Step 1: Install Node.js**
 ```bash
-curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
-apt-get install -y nodejs git
-```
-
-**Step 2: Clone the repository**
-```bash
-git clone https://github.com/Casper-Tech-ke/CASPER-XD-ULTRA.git
-cd CASPER-XD-ULTRA
-```
-
-**Step 3: Install dependencies**
-```bash
+git clone https://github.com/nocturn-hq/mltn_session.git
+cd mltn_session
 npm install
 ```
 
-**Step 4: Install PM2 for process management**
+### 2. Inscribe the Runes (Environment Variables)
+
+Create a `.env` file — never commit this, lest your bindings fall into enemy hands:
+
+| Variable | Purpose |
+|---|---|
+| `MONGODB_URI` | Connection string to your Shadow Archive |
+| `MONGODB_DB_NAME` | Database name *(optional, defaults to `mltn_md`)* |
+| `BOT_ID` | Unique sigil identifying this shadow instance — **required** if running more than one bot against the same MongoDB cluster |
+| `SESSION_ID` | *(optional)* Pre-generated session string (`MLTN;;;<data>`) to skip QR/pairing entirely |
+| `PORT` | Port for the health-check server *(optional, defaults to `10000`)* |
+
+### 3. Choose Your Binding Ritual
+
 ```bash
-npm install -g pm2
+npm start
 ```
 
-**Step 5: Start the pairing tool**
-```bash
-PORT=9989 pm2 start index.js --name casper-pairing
-pm2 startup
-pm2 save
-```
+- No flags → scan the QR code that appears in your terminal.
+- `npm start -- --pairing-code` → bind via a phone-number pairing code instead.
 
-**Step 6:** Access the pairing tool at `http://your-server-ip:9989`
+### 4. Confirm the Ascension
 
-**Useful PM2 Commands:**
-| Command | Description |
-|---------|-------------|
-| `pm2 logs casper-pairing` | :page_facing_up: View live logs |
-| `pm2 restart casper-pairing` | :arrows_counterclockwise: Restart the app |
-| `pm2 stop casper-pairing` | :stop_sign: Stop the app |
-| `pm2 delete casper-pairing` | :wastebasket: Remove from PM2 |
-| `pm2 monit` | :bar_chart: Monitor resources |
+Once connected, the Monarch sends itself a message confirming the binding is complete. Your session is now safely mirrored to MongoDB — safe from the next restart.
 
 ---
 
-### :six: cPanel Deployment
+## 🌑 Deploying to the Mortal Realm (Render)
 
-**Step 1:** Upload the project files to your cPanel file manager
+1. Push this repo to your own GitHub.
+2. Create a new **Web Service** on Render, pointed at your fork.
+3. Set the environment variables above in Render's dashboard.
+4. Deploy. The health-check server keeps Render satisfied that the Monarch still draws breath.
 
-**Step 2:** Set up a Node.js application in cPanel:
-- Application root: `/casper-pairing`
-- Application startup file: `index.js`
-- Node.js version: `20.x`
-
-**Step 3:** Run `npm install` in the terminal
-
-**Step 4:** Start the application
+> ⚠️ Running multiple bots on the same account? Each deployment needs its **own unique `BOT_ID`** and its **own unique `PORT`**, or their sessions and health checks will collide.
 
 ---
 
-## :gear: Using the Session in CASPER XD ULTRA Bot
+## 🗡️ Commanding the Monarch (Commands)
 
-After generating a session with this pairing tool, you'll receive a session ID starting with `CASPER-XD-ULTRA;`. Here's how to use it in the bot:
-
-```js
-const fs = require('fs');
-const zlib = require('zlib');
-const path = require('path');
-
-const sessionDir = path.join(__dirname, 'session');
-const credsPath = path.join(sessionDir, 'creds.json');
-
-async function loadSession() {
-    if (!fs.existsSync(sessionDir)) {
-        fs.mkdirSync(sessionDir, { recursive: true });
-    }
-
-    const [header, b64data] = config.SESSION_ID.split(';');
-
-    if (header !== 'CASPER-XD-ULTRA' || !b64data) {
-        throw new Error('Invalid session format. Expected CASPER-XD-ULTRA;...');
-    }
-
-    const compressedData = Buffer.from(b64data, 'base64');
-    const decompressedData = zlib.gunzipSync(compressedData);
-
-    fs.writeFileSync(credsPath, decompressedData, 'utf8');
-    console.log('Session loaded successfully');
-}
-
-module.exports = { loadSession };
-```
+Message the bot directly to see its full command grimoire — send `.menu` or `.help` from a bound chat.
 
 ---
 
-## :file_folder: Project Structure
+## ⚠️ A Warning to Hunters
 
-```
-Pairing/
-├── index.js            # Express server entry point
-├── package.json        # Dependencies and project config
-├── app.json            # Heroku/platform app config
-├── heroku.yml          # Heroku deployment config
-├── SECURITY.md         # Security and usage policy
-├── README.md           # This file
-├── lib/
-│   └── index.js        # Utility functions (casperId, removeFile, generateRandomCode)
-├── routes/
-│   ├── index.js        # Route exports
-│   ├── pair.js         # Pair code session generation
-│   └── qr.js           # QR code session generation
-├── public/
-│   ├── index.html      # Main landing page
-│   └── pair.html       # Pair code page
-└── deploy/
-    └── cpanel.yml      # cPanel deployment config
-```
+- Never commit your `.env`, `session/`, or `session_*` folders to a public repository. These hold the keys to your Monarch's throne — anyone who possesses them can seize control of your WhatsApp account.
+- The Shadow Archive (MongoDB) should be secured with a strong password and IP allowlist. Treat it as you would the vault beneath your throne.
 
 ---
 
-## :shield: Security Policy
+<div align="center">
 
-This project allows **forking** but requires proper credit to the original author. See [SECURITY.md](./SECURITY.md) for full details.
+**Forged by MILITAN** · *Reskinned in shadow, bound in code*
 
-**You MUST:**
-- :white_check_mark: Keep credit to **TRABY CASPER** and **CASPER TECH KENYA DEVELOPERS** in all forks and copies
-- :white_check_mark: Credit **Gifted Tech** as the original source code provider
-- :no_entry: Not remove or alter author attribution
-- :no_entry: Not claim this project as your own
+*The weak will kneel. The bot will `Arise`.*
 
----
-
-## :handshake: Credits & Support
-
-### Developed By - CASPER TECH KENYA DEVELOPERS
-
-<p align="center">
-  <b>TRABY CASPER</b><br>
-  <a href="https://github.com/Casper-Tech-ke">CASPER TECH KENYA DEVELOPERS</a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Casper-Tech-ke">
-    <img src="https://img.shields.io/badge/GitHub-Casper--Tech--ke-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="https://t.me/casper_tech_ke">
-    <img src="https://img.shields.io/badge/Telegram-Casper%20Tech-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
-  </a>
-  <a href="https://whatsapp.com/channel/0029VbCK8vlKwqSSkFkC1l2k">
-    <img src="https://img.shields.io/badge/WhatsApp-Channel%201-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
-  </a>
-  <a href="https://whatsapp.com/channel/0029Vb6XJQQHrDZi1RzKu90t">
-    <img src="https://img.shields.io/badge/WhatsApp-Channel%202-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
-  </a>
-</p>
-
----
-
-### Source Code Provider - Gifted Tech
-
-<p align="center">
-  The original source code for this pairing tool was provided by <b>Gifted Tech</b>.<br>
-  We acknowledge and thank Gifted Tech for the foundation of this project.
-</p>
-
-<p align="center">
-  <a href="https://github.com/mauricegift">
-    <img src="https://img.shields.io/badge/GitHub-mauricegift-181717?style=for-the-badge&logo=github&logoColor=white" alt="Gifted Tech GitHub"/>
-  </a>
-  <a href="https://www.giftedtech.co.ke">
-    <img src="https://img.shields.io/badge/Website-giftedtech.co.ke-7b2cbf?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Gifted Tech Website"/>
-  </a>
-  <a href="https://api.whatsapp.com/send?phone=254728782591">
-    <img src="https://img.shields.io/badge/WhatsApp-Gifted%20Tech-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Gifted Tech WhatsApp"/>
-  </a>
-</p>
-
----
-
-<p align="center">
-  <b>Copyright (c) 2024-2026 TRABY CASPER | CASPER TECH KENYA DEVELOPERS</b><br>
-  <i>Source code originally by <a href="https://github.com/mauricegift">Gifted Tech</a></i>
-</p>
+</div>
